@@ -1,7 +1,6 @@
 # Empirical Examination of Macroeconomic Theories
 
-This Jupyter notebook analyzes five key macroeconomic theories using real-world U.S. data from 1980-2024. The analysis tests whether these theories hold up empirically by examining statistical significance and explanatory power (R-squared values).
-
+This Jupyter notebook empirically examines some macroeconomic theories using real-world U.S. data from 1980-2024. This analysis is meant to see how well these theories hold up in practice, by not only examining whether there is a statistically significant relationship between any two variables, but also how well one variable can explain the variation in the other variable(by computing the R-squared value).
 ## Overview
 
 This project empirically tests the following macroeconomic theories:
@@ -39,8 +38,6 @@ All data is fetched directly from the Federal Reserve Economic Data (FRED) API u
 | Phillips Curve | Unemployment ↓ → Inflation ↑ | ✗ Not supported | p = 0.599 | ≈ 0 |
 | Quantity Theory (Pre-2008) | M2 Growth ↑ → Inflation ↑ | ✓ Supported | p = 0.006 | 0.023 |
 | Quantity Theory (Post-2008) | M2 Growth ↑ → Inflation ↑ | ✗ Not supported | p = 0.035 (negative slope) | 0.023 |
-
-## Requirements
 
 
 ## Requirements
